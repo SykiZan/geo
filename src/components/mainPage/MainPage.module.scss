@@ -1,0 +1,35 @@
+.page {
+  height: 100vh;
+  background-color: #d5e1df;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 12px;
+}
+
+.header {
+  font-size: 28px;
+  padding-top: 10%;
+}
+.desc {
+  font-size: 22px;
+}
+
+.btn {
+  width: 130px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  background-color: #86af49;
+
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #405d27;
+    color: #d5e1df;
+  }
+}

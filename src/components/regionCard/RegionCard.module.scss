@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  text-align: left;
+
+  &:first-child {
+    flex-grow: 1;
+  }
+}
